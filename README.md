@@ -18,14 +18,14 @@ A simple RESTful API for processing payments using PayPal
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+https://github.com/jaredvincent414/Payment-Gateway.git
 cd payment-gateway
 ```
 
 2. Create and activate a virtual environment:
 ```bash
 python -m venv .venv
-source .venv/bin/activate  # On Windows use: .venv\Scripts\activate
+source .venv/bin/activate 
 ```
 
 3. Install dependencies:
@@ -109,14 +109,6 @@ The project includes a GitHub Actions workflow for continuous integration and de
 1. Runs tests on push to main branch
 2. Checks code style
 3. Deploys to production if tests pass
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
 
 ## License
 
