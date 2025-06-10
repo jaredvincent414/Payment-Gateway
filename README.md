@@ -1,7 +1,6 @@
 # Payment Gateway API
 
-A simple RESTful API for processing payments using PayPal (with support for other payment gateways like Paystack and Flutterwave planned for future releases).
-
+A simple RESTful API for processing payments using PayPal 
 ## Features
 
 - Process payments without user authentication
@@ -11,7 +10,6 @@ A simple RESTful API for processing payments using PayPal (with support for othe
 
 ## Requirements
 
-- Python 3.8+
 - Django 5.2+
 - Django REST Framework
 - PayPal REST SDK
