@@ -32,13 +32,6 @@ source .venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-
-4. Create a `.env` file:
-```bash
-cp .env.example .env
-```
-Then edit the `.env` file with your actual configuration values.
-
 5. Run migrations:
 ```bash
 python manage.py migrate
@@ -108,8 +101,5 @@ python manage.py test
 The project includes a GitHub Actions workflow for continuous integration and deployment. The workflow:
 1. Runs tests on push to main branch
 2. Checks code style
-3. Deploys to production if tests pass
 
-## License
 
-This project is licensed under the MIT License - see the LICENSE file for details. 
